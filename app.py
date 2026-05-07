@@ -71,6 +71,9 @@ def generate_blood_test_dataset(n=2000, noise_ratio=0.08, random_state=42):
 
     df["white_blood_cells"] = df["white_blood_cells"].round(0)
 
+
+    st.dataframe(df)
+
     df["hemoglobin"] = df["hemoglobin"].round(1)
 
     return df
