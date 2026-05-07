@@ -81,8 +81,8 @@ df = generate_blood_test_dataset()
 st.dataframe(df)
 st.scatter_chart(
     df,
-    x="heart_rate"
-    y="body_temp"
+    x="heart_rate",
+    y="body_temp",
     color="test_normal"
 )
 
