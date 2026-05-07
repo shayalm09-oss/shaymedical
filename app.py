@@ -85,5 +85,10 @@ st.scatter_chart(
     y="body_temp",
     color="test_normal"
 )
-
+st.scatter_chart(
+    df,
+    x="hemoglobin",
+    y="body_temp",
+    color="test_normal"
+)
     
