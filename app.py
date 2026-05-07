@@ -79,5 +79,11 @@ def generate_blood_test_dataset(n=2000, noise_ratio=0.08, random_state=42):
 
 df = generate_blood_test_dataset()
 st.dataframe(df)
+st.scatter_chart(
+    df,
+    x="heart_rate"
+    y="body_temp"
+    color="test_normal"
+)
 
     
